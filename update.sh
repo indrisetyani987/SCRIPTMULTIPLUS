@@ -36,7 +36,7 @@ fun_bar() {
 }
 res1() {
     wget https://raw.githubusercontent.com/indrisetyani987/SCRIPTMULTIPLUS/main/menu/menu.zip
-    7z x -pMULTIPLUS menu.zip
+    unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
     rm -rf menu
