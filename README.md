@@ -17,7 +17,7 @@ apt update --allow-releaseinfo-change && \
 apt upgrade -y && \
 apt install -y curl wget unzip dos2unix sudo gnupg lsb-release software-properties-common build-essential libcap-ng-dev libssl-dev libffi-dev python3 python3-pip && \
 echo -e "\nDependencies terinstall\n" && \
-curl -s -O https://raw.githubusercontent.com/indrisetyani987/SCRIPTMULTIPLUS/main/install.sh && \
+curl -s -O https://raw.githubusercontent.com/indrisetyani987/SCRIPTMULTIPLUS2/main/install.sh && \
 chmod +x install.sh && \
 screen -S install ./install.sh
 ```
