@@ -22,6 +22,11 @@ chmod +x install.sh && \
 screen -S install ./install.sh
 ```
 
+# CMD UPDATE
+```
+wget -q https://raw.githubusercontent.com/indrisetyani987/SCRIPTMULTIPLUS/main/update.sh && bash update.sh
+```
+
 CMD INSTALASI UDP UNLI
 ```
 apt update -y && wget -q https://raw.githubusercontent.com/indrisetyani987/SCRIPTMULTIPLUS/main/zivpn.sh -O /usr/local/bin/zivpn-manager && chmod +x /usr/local/bin/zivpn-manager && /usr/local/bin/zivpn-manager
